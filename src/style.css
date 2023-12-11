@@ -2,6 +2,14 @@ body {
   text-align: center;
 }
 
+button {
+  width: 18%;
+}
+
+.input-content {
+  width: 40%;
+}
+
 .recipe-text {
   display: block;
   margin: 0 auto;

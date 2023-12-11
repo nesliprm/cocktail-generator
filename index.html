@@ -16,17 +16,21 @@
   <body>
     <div class="container">
       <h1 class="mt-5">Find a cocktail recipe with AI:</h1>
-      <div class="d-flex justify-content-center">
-        <form class="mt-4">
-          <input
-            type="text"
-            placeholder="Type a main alcoholic ingredient..."
-            autofocus="on"
-            required
-          />
-          <input type="submit" class="btn btn-warning" />
-        </form>
-      </div>
+
+      <form class="mt-4 form-inline d-flex justify-content-center">
+        <input
+          type="text"
+          placeholder="Type one main alcoholic ingredient... (e.g.: rum)"
+          autofocus="on"
+          autocomplete="off"
+          required
+          class="form-control mb-2 input-content"
+        />
+
+        <button type="submit" class="btn btn-warning mb-2">
+          Make me a cocktail!
+        </button>
+      </form>
 
       <div id="recipe" class="recipe-text mt-5">
         Muddle the lime juice, sugar and mint leaves in a small jug, crushing
