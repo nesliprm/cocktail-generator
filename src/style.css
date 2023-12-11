@@ -10,9 +10,9 @@ button {
   width: 40%;
 }
 
-.recipe-text {
+#cocktail-recipe {
   font-family: monospace;
   display: block;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 500px;
 }
