@@ -17,8 +17,12 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
 "></script>
   </head>
   <body>
-    <div class="container">
-      <h1 class="mt-5">Find a cocktail recipe with AI:</h1>
+    <div class="container mt-5">
+      <h1>MixologAI</h1>
+      <p>
+        MixologAI is an amazing bartender that can make cocktails using an
+        ingredient of your choice.
+      </p>
 
       <form
         id="cocktail-form"
@@ -26,7 +30,7 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
       >
         <input
           type="text"
-          placeholder="Type one base alcoholic ingredient... (e.g.: rum)"
+          placeholder="Type only one ingredient..."
           autofocus="on"
           autocomplete="off"
           required
@@ -41,10 +45,8 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
 
       <div
         id="cocktail-recipe"
-        class="mt-5 border border-warning p-3 rounded-4"
-      >
-        <br />
-      </div>
+        class="hidden mt-5 border border-warning p-3 rounded-4"
+      ></div>
 
       <footer class="mt-5">
         <small

@@ -1,4 +1,12 @@
 body {
+  background-image: linear-gradient(
+      rgba(34, 40, 49, 0.6),
+      rgba(34, 40, 49, 0.2)
+    ),
+    url(../images/cheers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
   text-align: center;
 }
 
@@ -15,4 +23,15 @@ button {
   display: block;
   margin: 0 auto;
   max-width: 500px;
+}
+
+.container {
+  padding: 30px;
+  width: 60%;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.hidden {
+  display: none;
 }
