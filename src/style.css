@@ -67,6 +67,7 @@ form {
   }
 
   button {
+    font-weight: lighter;
     color: rgb(28, 28, 28);
     width: 80%;
   }
