@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COCKTAIL GENERATOR</title>
+    <title>ByteBAR: AI COCKTAIL GENERATOR</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,13 +15,15 @@
     <script src="
 https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
 "></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container mt-5">
-      <h1>MixologAI</h1>
+      <h1>BYTE<strong>BAR</strong></h1>
       <p>
-        MixologAI is an amazing bartender that can make cocktails using an
-        ingredient of your choice.
+        Welcome to BYTEBAR, an AI powered mixologist that can craft cocktails
+        using ingredients of your choice!
       </p>
 
       <form
@@ -38,17 +40,12 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
           id="cocktail-input"
         />
 
-        <button type="submit" class="btn btn-warning mb-2">
-          Make me a cocktail!
-        </button>
+        <button type="submit" class="mb-2 ms-1">Make me a cocktail!</button>
       </form>
 
-      <div
-        id="cocktail-recipe"
-        class="hidden mt-5 border border-warning p-3 rounded-4"
-      ></div>
+      <div id="cocktail-recipe" class="mt-5 mb-5"></div>
 
-      <footer class="mt-5">
+      <footer class="pt-4 border-top border-secondary">
         <small
           ><a
             href="https://github.com/nesliprm/cocktail-generator"

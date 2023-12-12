@@ -20,5 +20,13 @@ function generateCocktail(event) {
 
   console.log("generating...");
 
+  new Typewriter("#cocktail-recipe", {
+    strings: "generating...",
+    autoStart: true,
+    delay: 20,
+    cursor: null,
+    loop: true,
+  });
+
   axios.get(apiURL).then(displayCocktail);
 }
