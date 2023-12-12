@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An AI powered cocktail generator that uses ingredients of your choice!"
+    />
     <title>ByteBAR: AI COCKTAIL GENERATOR</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -11,6 +15,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ea89842d86.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="
 https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
@@ -19,8 +27,8 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
-    <div class="container mt-5">
-      <h1>BYTE<strong>BAR</strong></h1>
+    <div class="container mt-5 mb-5">
+      <h1>BYTE<strong>BAR</strong><i class="fa-solid fa-martini-glass"></i></h1>
       <p>
         Welcome to BYTEBAR, an AI powered mixologist that can craft cocktails
         using ingredients of your choice!
@@ -40,7 +48,7 @@ https://cdn.jsdelivr.net/npm/axios@1.6.2/dist/axios.min.js
           id="cocktail-input"
         />
 
-        <button type="submit" class="mb-2 ms-1">Make me a cocktail!</button>
+        <button type="submit" class="mb-2 ms-1">Make a cocktail!</button>
       </form>
 
       <div id="cocktail-recipe" class="mt-5 mb-5"></div>

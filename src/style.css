@@ -6,13 +6,19 @@ body {
     url(../images/cheers.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 h1 {
   font-size: 64px;
   text-shadow: 3px 3px 0px rgba(178, 255, 84, 0.8);
+}
+
+i {
+  font-size: 28px;
+  position: relative;
+  top: -30px;
 }
 
 button {
@@ -32,8 +38,10 @@ p {
   font-size: 18px;
 }
 
-.input-content {
-  width: 40%;
+form {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 #cocktail-recipe {
@@ -48,8 +56,4 @@ p {
   width: 60%;
   background-color: rgb(255, 255, 255, 0.8);
   border-radius: 20px;
-}
-
-.hidden {
-  display: none;
 }
